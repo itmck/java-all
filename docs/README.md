@@ -168,7 +168,7 @@ Nacos 能让您从微服务平台建设的视角管理数据中心的所有服�
 
 ## 安装nacos控制台
 
-<img src="https://github.com/itmck/java-all/blob/main/docs/pic/image-20230505160247182.png" alt="tp"/>
+![image-20230505160544835](/docs/pic/image-20230505160247182.png)
 
 **源码下载方式**
 
