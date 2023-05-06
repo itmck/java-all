@@ -168,7 +168,7 @@ Nacos 能让您从微服务平台建设的视角管理数据中心的所有服�
 
 ## 安装nacos控制台
 
-![image-20230505160247182](/Users/mchangke/Documents/资料/java/springcloudalibaba/微服务.assets/image-20230505160247182.png)
+![image-20230505160247182](../docs/pic/image-20230505160247182.png)
 
 **源码下载方式**
 
@@ -191,7 +191,7 @@ cd distribution/target/nacos-server-$version/nacos/bin
   cd nacos/bin
 ```
 
-![image-20230505160544835](/Users/mchangke/Documents/资料/java/springcloudalibaba/微服务.assets/image-20230505160544835.png)
+![image-20230505160544835](../docs/pic/image-20230505160544835.png)
 
 **启动服务**
 
@@ -226,11 +226,11 @@ startup.cmd -m standalone
 用户名/密码 nacos/nacos
 ```
 
-![image-20230505162014203](/Users/mchangke/Documents/资料/java/springcloudalibaba/微服务.assets/image-20230505162014203.png)
+![image-20230505162014203](../docs/pic/image-20230505162014203.png)
 
 ## Nacos注册中心架构
 
-![Clipboard_2021-02-05-22-32-59.png](https://cdn.nlark.com/yuque/0/2021/png/22109184/1626190905885-35ec1f8b-cec9-4c01-9ba8-db5fde6f2b72.png?x-oss-process=image%2Fresize%2Cw_1522%2Climit_0)
+![Clipboard_2021-02-05-22-32-59.png](../docs/pic/image-20230506102831827.png)
 
 
 
@@ -241,7 +241,7 @@ startup.cmd -m standalone
 1. 说明:springcloudalibaba依赖与spring-cloud 
 2. 版本对应关系说明:https://github.com/alibaba/spring-cloud-alibaba/wiki/版本说明
 
-![image-20230505163735187](/Users/mchangke/Documents/资料/java/springcloudalibaba/微服务.assets/image-20230505163735187.png)
+![image-20230505163735187](../docs/pic/image-20230505163735187.png)
 
 类似上面标记，每行代表的就是官方给的版本对应关系。这里选择一个版本举例：创建父工程pom配置如下：
 
@@ -332,7 +332,7 @@ spring:
 
 ### 验证是否注册成功
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/22109184/1671694128072-f55ec850-3dcc-4656-9775-448d6614fac2.png?x-oss-process=image%2Fresize%2Cw_1856%2Climit_0)
+![image.png](../docs/pic/image-20230506102948516.png)
 
 如图所示，表示注册成功。其中
 
@@ -382,9 +382,9 @@ namespace+group+配置文件名（默认spring.application.name）
 
 ### 配置环境信息
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/22109184/1671695907957-9433cacf-9118-4965-b416-57c6e84944a8.png)
+![image.png](../docs/pic/image-20230506103033191.png)
 
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/22109184/1671696009597-e07cbb9c-21f9-4996-afef-102935d818a7.png?x-oss-process=image%2Fresize%2Cw_1856%2Climit_0)
+![image.png](../docs/pic/image-20230506103041018.png)
 
 
 
@@ -436,7 +436,7 @@ spring:
 >
 > `这里为什么直接找spring.factories 需要对springboot的自动装配原理有一定的了解。这里不赘述`
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/22109184/1639708222417-e0ee4050-b635-42ca-bd91-317aad874b72.png?x-oss-process=image%2Fresize%2Cw_1856%2Climit_0)
+![image.png](../docs/pic/image-20230506103149850.png)
 
 看到图中标记，com.alibaba.cloud.nacos.registry.`NacosServiceRegistryAutoConfiguration` 看到名字不难发现，他就是自动注册配置类。
 
@@ -573,7 +573,7 @@ public class NamingProxy {
 
 注意这个reqAPI中的`UtilAndComs.NACOS_URL_INSTANCE`,可以看到UtilAndComs.NACOS_URL_INSTANCE, params请求得地址拼接之后就是 `/nacos/v1/ns/instance`
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/22109184/1639708548032-24e538f0-5254-4136-97b8-a8287eecf4b3.png)
+![image.png](../docs/pic/image-20230506103231062.png)
 
 **总结**
 
@@ -583,7 +583,7 @@ public class NamingProxy {
 
 我们通过nacos官网查看 https://nacos.io/zh-cn/docs/open-api.html 通过官方API可以得到印证,与我们得到的一致.
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/22109184/1639898809105-60174691-f922-4670-8b5d-7f06d116a259.png?x-oss-process=image%2Fresize%2Cw_1124%2Climit_0)
+![image.png](../docs/pic/image-20230506103240806.png)
 
 
 
