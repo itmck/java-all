@@ -436,7 +436,7 @@ spring:
 >
 > `这里为什么直接找spring.factories 需要对springboot的自动装配原理有一定的了解。这里不赘述`
 
-![image.png](../docs/pic/image-20230506103149850.png)
+![image-20230506103149850.png](https://s2.loli.net/2023/05/06/CwTmP7kQsYnxtUb.png)
 
 看到图中标记，com.alibaba.cloud.nacos.registry.`NacosServiceRegistryAutoConfiguration` 看到名字不难发现，他就是自动注册配置类。
 
