@@ -1,14 +1,13 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+![logo](/logo.jpg)
 
-# docsify <small>3.5</small>
+# java <small></small>
 
-> 一个神奇的文档网站生成器。
+> 一个快乐的的java学习网站成器。
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 简单、易懂
+- 授之以渔
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[笔记](https://www.yuque.com/itmiao/itmck)
+[Get Started](#/)
