@@ -1,9 +1,14 @@
 <!-- _coverpage.md -->
 
-# java使用指南
+![logo](_media/icon.svg)
 
-> 💪java学习，使用Typora+Docsify打造最强、最轻量级的个人&团队文档。
+# docsify <small>3.5</small>
 
-No matter the outcome, I just want to accompany you.
+> 一个神奇的文档网站生成器。
 
-[开始使用 Let Go](/README.md)
+- 简单、轻便 (压缩后 ~21kB)
+- 无需生成 html 文件
+- 众多主题
+
+[GitHub](https://github.com/docsifyjs/docsify/)
+[Get Started](#docsify)
