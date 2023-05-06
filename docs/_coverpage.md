@@ -1,10 +1,8 @@
 <!-- _coverpage.md -->
 
-![logo](/logo.jpg)
+# java笔记 <small></small>
 
-# java <small></small>
-
-> 一个快乐的的java学习网站成器。
+> 一个快乐的的java学习网站，满是干货。
 
 - 简单、易懂
 - 授之以渔
