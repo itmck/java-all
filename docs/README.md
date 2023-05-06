@@ -168,7 +168,7 @@ Nacos 能让您从微服务平台建设的视角管理数据中心的所有服�
 
 ## 安装nacos控制台
 
-![image-20230505160544835](../docs/pic/image-20230505160247182.png)
+![image-20230505160247182.png](https://s2.loli.net/2023/05/06/JUj54TwQ7c93oKa.png)
 
 **源码下载方式**
 
@@ -191,7 +191,7 @@ cd distribution/target/nacos-server-$version/nacos/bin
   cd nacos/bin
 ```
 
-![image-20230505160544835](../docs/pic/image-20230505160544835.png)
+![image-20230505160544835.png](https://s2.loli.net/2023/05/06/mrJcVfBvy97R2gp.png)
 
 **启动服务**
 
@@ -226,11 +226,11 @@ startup.cmd -m standalone
 用户名/密码 nacos/nacos
 ```
 
-![image-20230505162014203](../docs/pic/image-20230505162014203.png)
+![image-20230505162014203.png](https://s2.loli.net/2023/05/06/TbUSIpH4G3rsfAd.png)
 
 ## Nacos注册中心架构
 
-![Clipboard_2021-02-05-22-32-59.png](../docs/pic/image-20230506102831827.png)
+![image-20230506102831827.png](https://s2.loli.net/2023/05/06/6Q4NBsd1bctuMKo.png)
 
 
 
@@ -241,7 +241,7 @@ startup.cmd -m standalone
 1. 说明:springcloudalibaba依赖与spring-cloud 
 2. 版本对应关系说明:https://github.com/alibaba/spring-cloud-alibaba/wiki/版本说明
 
-![image-20230505163735187](../docs/pic/image-20230505163735187.png)
+![image-20230505163735187.png](https://s2.loli.net/2023/05/06/Xrw4aWetJv915PQ.png)
 
 类似上面标记，每行代表的就是官方给的版本对应关系。这里选择一个版本举例：创建父工程pom配置如下：
 
@@ -332,7 +332,7 @@ spring:
 
 ### 验证是否注册成功
 
-![image.png](../docs/pic/image-20230506102948516.png)
+![image-20230506102948516.png](https://s2.loli.net/2023/05/06/qHMGouz4AxvPKj9.png)
 
 如图所示，表示注册成功。其中
 
@@ -382,9 +382,9 @@ namespace+group+配置文件名（默认spring.application.name）
 
 ### 配置环境信息
 
-![image.png](../docs/pic/image-20230506103033191.png)
+![image-20230506103033191.png](https://s2.loli.net/2023/05/06/GfuswvApVYtFW6L.png)
 
-![image.png](../docs/pic/image-20230506103041018.png)
+![image-20230506103041018.png](https://s2.loli.net/2023/05/06/irvXSlYwCgD1ZLF.png)
 
 
 
@@ -573,7 +573,7 @@ public class NamingProxy {
 
 注意这个reqAPI中的`UtilAndComs.NACOS_URL_INSTANCE`,可以看到UtilAndComs.NACOS_URL_INSTANCE, params请求得地址拼接之后就是 `/nacos/v1/ns/instance`
 
-![image.png](../docs/pic/image-20230506103231062.png)
+![image-20230506103231062.png](https://s2.loli.net/2023/05/06/ljdkzemVCbS3q78.png)
 
 **总结**
 
@@ -583,7 +583,7 @@ public class NamingProxy {
 
 我们通过nacos官网查看 https://nacos.io/zh-cn/docs/open-api.html 通过官方API可以得到印证,与我们得到的一致.
 
-![image.png](../docs/pic/image-20230506103240806.png)
+![image-20230506103240806.png](https://s2.loli.net/2023/05/06/dnWTZPEgNqIhmAb.png)
 
 
 
