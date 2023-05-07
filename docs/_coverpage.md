@@ -8,4 +8,4 @@
 - 授之以渔
 
 [笔记](https://www.yuque.com/itmiao/itmck)
-[Get Started](/)
+[Get Started](/README.md)
