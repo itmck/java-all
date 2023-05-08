@@ -9,5 +9,6 @@
   * springcloud源码分析
     * [nacos注册中心源码分析](/springcloud/nacos-pro.md)
     * [Ribbon源码分析](/springcloud/ribbon_pro.md)
+    * [OpenFeign源码分析](/springcloud/openfeign_pro.md)
 * 并发篇
   * [线程池](/thread/thread.md)
