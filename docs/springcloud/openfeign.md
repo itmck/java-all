@@ -5,7 +5,7 @@
 - OpenFeign的设计宗旨式简化Java Http客户端的开发。Feign在restTemplate的基础上做了进一步的封装，由其来帮助我们定义和实现依赖服务接口的定义。在OpenFeign的协助下，我们只需创建一个接口并使用注解的方式进行配置（类似于Dao接口上面的Mapper注解）即可完成对服务提供方的接口绑定，大大简化了Spring cloud Ribbon的开发，自动封装服务调用客户端的开发量。
 - OpenFeign集成了Ribbon,利用ribbon维护了服务列表，并且通过ribbon实现了客户端的负载均衡。与ribbon不同的是，通过OpenFeign只需要定义服务绑定接口且以申明式的方法，优雅而简单的实现了服务调用.
 
-![image-20230506170006294.png](https://s2.loli.net/2023/05/08/PYINCZHxLMRgzsr.png)
+[![p90u9qf.png](https://s1.ax1x.com/2023/05/08/p90u9qf.png)](https://imgse.com/i/p90u9qf)
 
 
 
