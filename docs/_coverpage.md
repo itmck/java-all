@@ -7,5 +7,5 @@
 - 简单、易懂
 - 授之以渔
 
-[笔记](https://www.yuque.com/itmiao/itmck)
+[笔记](https://www.yuque.com/itmiao)
 [Get Started](/README.md)
