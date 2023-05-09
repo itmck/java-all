@@ -67,9 +67,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 101.43.70.178:8848 #注册中心地址,集群以逗号隔开
+        server-addr: localhost:8848 #注册中心地址,集群以逗号隔开
       config:
-        server-addr: 101.43.70.178:8848 #配置中心地址,集群以逗号隔开
+        server-addr: localhost:8848 #配置中心地址,集群以逗号隔开
         file-extension: yaml
 server:
   port: 7001
@@ -171,9 +171,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 101.43.70.178:8848 #注册中心地址,集群以逗号隔开
+        server-addr: localhost:8848 #注册中心地址,集群以逗号隔开
       config:
-        server-addr: 101.43.70.178:8848 #配置中心地址,集群以逗号隔开
+        server-addr: localhost:8848 #配置中心地址,集群以逗号隔开
         file-extension: yaml
 
 ```
