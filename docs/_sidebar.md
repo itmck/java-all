@@ -1,4 +1,6 @@
 * 微服务学习篇
+  * springboot常用整合
+    * [springboot整合mybatis-plus](/springboot/mybatis-plus.md)
   * springcloud基础使用
     * [什么是微服务](/springcloud/springcloud.md)
     * [Nacos注册中心](/springcloud/nacos.md)
