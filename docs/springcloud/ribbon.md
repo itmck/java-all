@@ -85,7 +85,7 @@ public class RibbonController {
 
 1. 库存服务B，分别使用端口8001,8002启动2个实例
 
-2. 启动订单服务A,并调用 http://localhost:8001/productA/hello?name=miaock
+2. 启动订单服务A,设置端口为7001,并调用 http://localhost:7001/productA/hello?name=miaock
 
 3. 多次调用打印如下
 
